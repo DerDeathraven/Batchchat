@@ -1,3 +1,7 @@
+@font-face{
+	font-family: 'glitter';
+	src: url("GLITF__.TTF");
+}
 html,body{
     margin:0;
     padding:0;
@@ -6,7 +10,7 @@ html,body{
 body{
     background: #2d3436;
     padding:1em;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'glitter', sans-serif;
 	color:#dfe6e9;
 }
 #nach{

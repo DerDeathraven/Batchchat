@@ -6,6 +6,7 @@ setlocal
 
 for /F "delims=" %%a in ('mshta.exe "%~F0"') do set "HTAreply=%%a"
 if "%HTAreply%" == "clear" goto clear
+if "%HTAreply%" == "2" goto exit
 	
 
 echo %username%: %HTAreply%>>log
@@ -14,6 +15,8 @@ goto :start
 del log
 echo Ahh nice a fresh Page >>log
 goto start
+:exit
+exit
 -->
 <html>
 	<head>
