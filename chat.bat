@@ -7,9 +7,6 @@ echo %username% joined the chat >>log
 
 :loop
 cls
-
-::hier die eigenen code-schnipsel. für return einfach goto EOF  
-SETCONSOLE /hide
 call HTA\test.bat
 
 goto loop
