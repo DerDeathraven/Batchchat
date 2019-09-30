@@ -14,12 +14,12 @@
 		
 		}
 		function red() {
-			var content = document.getElementById('close')
-			content.style.cssText ="background: red;"
+			var content = document.getElementById('close');
+			content.style.cssText ="background: red;";
 			
 	}
 		function white() {
-			var content = document.getElementById('close')
-			content.style.cssText ="background: white;"
+			var content = document.getElementById('close');
+			content.style.cssText ="background: white;";
 			
 	}

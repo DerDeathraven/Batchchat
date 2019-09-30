@@ -1,0 +1,18 @@
+<html>
+   <head>
+     <title>TEST</title>
+     <hta:application scroll="no" windowState="normal">
+  </head>
+  <script language="VBScript">
+     sub Window_onLoad()
+     set oFSO=CreateObject("Scripting.FileSystemObject")
+     set oFile=oFSO.OpenTextFile("log",1)
+     text=oFile.ReadAll
+     document.all.ScriptArea.value=text
+     oFile.Close
+     end sub
+  </script>
+  <body>
+     <textarea name="ScriptArea" rows=20 cols=70></textarea><p>
+   </body>
+</html>

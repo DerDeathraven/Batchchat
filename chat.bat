@@ -2,7 +2,7 @@
 
 color 0a
 cd stuff
-start viewer.bat
+start view.hta
 echo %username% joined the chat >>log
 
 :loop

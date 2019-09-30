@@ -5,11 +5,9 @@ setlocal
 :start
 
 for /F "delims=" %%a in ('mshta.exe "%~F0"') do set "HTAreply=%%a"
-pause
-if '%HTAreply%' === '2' {
-	exit
-}
-pause
+
+
+
 echo %username%: %HTAreply%>>log
 goto :start
 -->
