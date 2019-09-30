@@ -1,3 +1,21 @@
+html,body{
+    margin:0;
+    padding:0;
+    border:none;
+}
+body{
+    background: #2d3436;
+    padding:1em;
+	font-family: 'Roboto', sans-serif;
+	color:#dfe6e9;
+}
+#nach{
+	border: none;
+	background: #636e72;
+}
 span{
 	text-align: center;
+	padding: 0.1em;
+	border: solid 1px inherit;
+
 }
