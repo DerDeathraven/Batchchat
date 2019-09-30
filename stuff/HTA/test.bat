@@ -6,7 +6,7 @@ setlocal
 
 for /F "delims=" %%a in ('mshta.exe "%~F0"') do set "HTAreply=%%a"
 pause
-if '%HTAreply%' == '2' {
+if '%HTAreply%' === '2' {
 	exit
 }
 pause
@@ -25,8 +25,8 @@ goto :start
 	<body>
 		<label for="input" >Nachricht:</label>
 		<input type="text" id="nach" name="input" onkeydown="key(event)">
-		<div id="close"><span onclick="closeHTA('2')">X</span></div>
-	<script language="JavaScript" src="script.js">
+		<span onclick="closeHTA('2')" onmouseover="red()" onmouseleave="white()" id="close">X</span>
+		<script language="JavaScript" src="script.js">
 		</script>
 	</body>
 

@@ -1,12 +1,3 @@
-body{
-	
-}
-#close{
-display: block;
-width: 100px;
-height: 50px;
-
-}
-#close:hover{
- background: #ff0000 ;
+span{
+	text-align: center;
 }
