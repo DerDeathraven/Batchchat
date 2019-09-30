@@ -20,6 +20,6 @@
 	}
 		function white() {
 			var content = document.getElementById('close');
-			content.style.cssText ="background: white;";
+			content.style.cssText ="background: inherit;";
 			
 	}
