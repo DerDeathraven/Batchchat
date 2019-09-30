@@ -1,0 +1,19 @@
+html,body{
+    margin:0;
+    padding:0;
+    border:none;
+}
+body{
+    background: #2d3436;
+    padding:1em;
+    font-family: 'Roboto', sans-serif;
+}
+textarea{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height:100%;
+    background: #2d3436;
+    border:none;
+    color:#dfe6e9;
+    line-height: 1.5em;
+}

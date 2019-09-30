@@ -2,16 +2,20 @@
    <head>
      <title>TEST</title>
      <hta:application scroll="no" windowState="normal">
+     <link rel="stylesheet" href="view.css">
+     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <script language="VBScript">
-     sub Window_onLoad()
-     set oFSO=CreateObject("Scripting.FileSystemObject")
-     set oFile=oFSO.OpenTextFile("log",1)
-     text=oFile.ReadAll
-     document.all.ScriptArea.value=text
-     oFile.Close
-     end sub
+
+      sub Window_onLoad()
+      set oFSO=CreateObject("Scripting.FileSystemObject")
+      set oFile=oFSO.OpenTextFile("log",1)
+      text=oFile.ReadAll
+      document.all.ScriptArea.value=text
+      oFile.Close
+      end sub
   </script>
+  
   <body>
      <textarea name="ScriptArea" rows=20 cols=70></textarea><p>
    </body>
