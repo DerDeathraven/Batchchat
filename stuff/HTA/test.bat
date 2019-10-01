@@ -11,11 +11,10 @@ if "%HTAreply%" == "2" goto exit
 
 echo %username%: %HTAreply%>>log
 goto :start
-:clear
-del log
-echo Ahh nice a fresh Page >>log
-goto start
+
+
 :exit
+echo %username% left the Server >>log
 exit
 -->
 <html>
